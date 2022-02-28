@@ -22,6 +22,11 @@ window.addEventListener('load', function(){
     let randomY = Math.floor(Math.random() * 90);
     treasureDiv.style.top = `${randomX}%`;
     treasureDiv.style.left = `${randomY}%`;
+
+    //クリックでクリアページ遷移
+    treasureDiv.addEventListener('click', () => {
+      window.location.href = '/game/win';
+    })
   });
 
   [...Array(10)].forEach( function() { //うんこ
@@ -45,5 +50,10 @@ window.addEventListener('load', function(){
     let randomY = Math.floor(Math.random() * 90);
     pooDiv.style.top = `${randomX}%`;
     pooDiv.style.left = `${randomY}%`;
+
+    //クリックでゲームオーバーページ遷移
+    pooDiv.addEventListener('click', () =>{
+      window.location.href = '/game/lose'
+    })
   });
 });
