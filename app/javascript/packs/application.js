@@ -11,6 +11,10 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+require("src/goals_add_elements");
+require("src/leaves_add_elements");
+require("src/drag");
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

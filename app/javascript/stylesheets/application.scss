@@ -1,2 +1,17 @@
 @import "bootstrap";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+@import "games/game_1";
+
+
+.profiler-results {
+  display: none;
+}
+
+.html {
+  height: 100%;
+
+  .body {
+    height: 100%;
+  }
+}
