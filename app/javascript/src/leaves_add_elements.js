@@ -1,4 +1,4 @@
-let game1 = document.getElementsByClassName('game1')
+let game1 = document.getElementsByClassName('game1');
 
 window.addEventListener('load', function(){
   [...Array(200)].forEach( function() {
@@ -36,6 +36,7 @@ window.addEventListener('load', function(){
     leafDiv.appendChild(leafIcon);
     game1[0].appendChild(leafDiv);
 
+    //葉っぱの位置をランダムに
     let randomX = Math.floor(Math.random() * 90);
     let randomY = Math.floor(Math.random() * 90);
     leafDiv.style.top = `${randomX}%`;
