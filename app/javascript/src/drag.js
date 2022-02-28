@@ -14,7 +14,6 @@ function draggable(target) {
 }
 
 const leaves = document.getElementsByClassName('leaf');
-console.log(leaves);
 
 //ページ読み込み完了を待つ
 window.addEventListener('load', function(){
