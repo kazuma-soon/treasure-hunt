@@ -1,7 +1,7 @@
 let game1 = document.getElementsByClassName('game1');
 
 window.addEventListener('load', function(){
-  [...Array(200)].forEach( function() {
+  [...Array(350)].forEach( function() {
     let randomCondition = Math.floor(Math.random() * 100);
     let leafDiv = document.createElement('div');
     let leafIcon = document.createElement('i');
