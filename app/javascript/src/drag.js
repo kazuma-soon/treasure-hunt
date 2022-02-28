@@ -1,3 +1,5 @@
+//葉っぱのドラッグ機能
+
 function draggable(target) {
   target.onmousedown = function() {
     document.onmousemove = mouseMove;
