@@ -13,7 +13,7 @@ function draggable(target) {
   }
 }
 
-const leaves = document.getElementsByClassName('leaf');
+const leaves = document.getElementsByClassName('drag');
 
 //ページ読み込み完了を待つ
 window.addEventListener('load', function(){
