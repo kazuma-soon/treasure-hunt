@@ -5,7 +5,6 @@
 ドラッグを用いて、葉っぱをどかし、宝物ゲットするミニゲームです。  
 宝物ではなく、ウンコをゲットしてしまうとゲームオーバーです。
 
-
 ## 機能の流れ
 
 - ゲームページ
@@ -21,6 +20,9 @@
 - ゲームオーバーページ
 <img width="800" alt="cant" src="https://user-images.githubusercontent.com/88179125/156149900-bbb3cca4-db58-4e12-a520-aeb7ebad7471.png">
 ウンコロゴをクリックすると、ゲームーバーページが表示されます。
+
+## URL
+https://hunt-treasure-or-unko.herokuapp.com/
 
 ## 使用技術
 ##### バックエンド
