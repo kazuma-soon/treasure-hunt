@@ -8,18 +8,18 @@
 ## 機能の流れ
 
 - ゲームページ
-<img width="800" alt="ゲームページ" src="https://user-images.githubusercontent.com/88179125/156149386-d8ee3cfd-16d1-4a20-92c5-54e0f82793bd.png">
 マウスドラッグで葉っぱを移動させ、宝をゲットします。
+<img width="800" alt="ゲームページ" src="https://user-images.githubusercontent.com/88179125/156149386-d8ee3cfd-16d1-4a20-92c5-54e0f82793bd.png">
 
 
 - クリアページ
-<img width="800" alt="clear" src="https://user-images.githubusercontent.com/88179125/156149767-c12735ec-56fd-4766-9f65-e8979daf9f79.png">
 宝石ロゴをクリックすると、このページが表示されます。
+<img width="800" alt="clear" src="https://user-images.githubusercontent.com/88179125/156149767-c12735ec-56fd-4766-9f65-e8979daf9f79.png">
 
 
 - ゲームオーバーページ
+ウンコをクリックすると、ゲームーバーページが表示されます。
 <img width="800" alt="cant" src="https://user-images.githubusercontent.com/88179125/156149900-bbb3cca4-db58-4e12-a520-aeb7ebad7471.png">
-ウンコロゴをクリックすると、ゲームーバーページが表示されます。
 
 ## URL
 https://hunt-treasure-or-unko.herokuapp.com/
@@ -32,7 +32,8 @@ https://hunt-treasure-or-unko.herokuapp.com/
 ##### フロントエンド
 - HTML
 - CSS
-- バニラJavascript
+- Hammerjs
+- twitter シェア機能
 
 ##### インフラ
 - heroku
