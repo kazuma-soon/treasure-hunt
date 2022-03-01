@@ -1,0 +1,52 @@
+.win-page {
+  background-image: url("../images/win_bg.png");
+  background-size: 10%;
+}
+
+.win h1 {
+  margin-top: 100px;
+
+  font-size: 7rem;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.win p {
+  margin-top: 30px;
+
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+  line-height: 32px;
+  color: white;
+}
+
+.win button {
+  margin-top: 50px;
+  width: 20%;
+  height: 60px;
+
+  font-size: 1.5rem;
+}
+
+@media(max-width: 600px) {
+  .win-page {
+    background-size: 20%;
+  }
+
+  .win h1 {
+    margin-top: 200px;
+    font-size: 3rem;
+  }
+
+  .win p {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+
+  .win button {
+    width: 200px;
+    height: 40px;
+
+    font-size: 1rem;
+  }
+}
