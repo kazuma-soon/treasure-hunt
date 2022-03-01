@@ -15,6 +15,9 @@ require("src/goals_add_elements");
 require("src/leaves_add_elements");
 require("src/drag");
 
+const images = require.context('../images', true)
+const imagePath = (name) => images(name, true)
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
