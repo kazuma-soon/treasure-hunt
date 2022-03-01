@@ -13,6 +13,7 @@ import "channels"
 
 require("src/goals_add_elements");
 require("src/leaves_add_elements");
+require("src/smartphone_drag");
 require("src/drag");
 
 const images = require.context('../images', true)
