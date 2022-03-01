@@ -30,6 +30,15 @@
   font-size: 1.5rem;
 }
 
+.lose .twitter-box {
+  height: 40px;
+
+  .twitter {
+    margin-top: 100px;
+    margin-right: 20px; 
+  }
+}
+
 @media(max-width: 600px) {
   .lose-page {
     background-size: 30%;
