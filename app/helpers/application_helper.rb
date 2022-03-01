@@ -12,4 +12,12 @@ module ApplicationHelper
       }
     }
   end
+
+  def request_url
+    if Rails.env.production?
+      'https://hunt-treasure-or-unko.herokuapp.com/'
+    else
+      'http://localhost:3000/'
+    end
+  end
 end
